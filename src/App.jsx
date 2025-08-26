@@ -1,6 +1,6 @@
-import React from 'react'
-import User from './components/user/user';
-
+import React from "react";
+import "./components/user/User.css";
+import User from "./components/user/User";
 
 const App = () => {
   return (
@@ -8,6 +8,6 @@ const App = () => {
       <User />
     </main>
   );
-}
+};
 
-export default App
+export default App;
