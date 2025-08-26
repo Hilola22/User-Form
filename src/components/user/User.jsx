@@ -85,7 +85,6 @@ const User = () => {
           <button type="submit">Submit</button>
         </form>
       </div>
-
       <div className="list-box">
         {list.length > 0 ? (
           list.map((user) => (
@@ -107,7 +106,6 @@ const User = () => {
           <p>No users information here</p>
         )}
       </div>
-
       {active && (
         <div className="popup" onClick={() => setActive(null)}>
           <div className="popup-box" onClick={(e) => e.stopPropagation()}>
@@ -136,5 +134,4 @@ const User = () => {
     </div>
   );
 };
-
 export default User;
